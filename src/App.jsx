@@ -22,11 +22,11 @@ function App() {
       >
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-        <Home />
-        <About />
+        {/* <Home />
+        <About /> */}
         {/* <Projects /> */}
         <Contact />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   );
